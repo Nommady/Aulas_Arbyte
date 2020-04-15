@@ -1,0 +1,22 @@
+{
+  "name": "aulas_arbyte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nommady/Aulas_Arbyte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nommady/Aulas_Arbyte/issues"
+  },
+  "homepage": "https://github.com/Nommady/Aulas_Arbyte#readme",
+  "dependencies": {
+    "startbootstrap-freelancer": "^6.0.1"
+  }
+}
