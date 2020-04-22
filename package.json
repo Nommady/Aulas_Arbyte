@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Nommady/Aulas_Arbyte#readme",
   "dependencies": {
+    "g": "^2.0.1",
+    "startbootstrap-bare": "^4.2.1",
     "startbootstrap-freelancer": "^6.0.1"
   }
 }
