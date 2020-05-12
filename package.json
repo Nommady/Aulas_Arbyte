@@ -17,7 +17,14 @@
   },
   "homepage": "https://github.com/Nommady/Aulas_Arbyte#readme",
   "dependencies": {
+    "age-calculator": "^1.0.0",
+    "chalk": "^4.0.0",
+    "fasam-imc-calc": "0.0.4",
     "g": "^2.0.1",
+    "is-odd": "^3.0.1",
+    "isprime": "0.0.2",
+    "median": "0.0.2",
+    "prime-number": "^1.0.2",
     "startbootstrap-bare": "^4.2.1",
     "startbootstrap-freelancer": "^6.0.1"
   }
