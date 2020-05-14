@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página para manipular a DOM</title>
+    <style>
+        p {
+            background-color: black;
+            color: #ffffff;
+        }
+    </style>
+    <script>
+        function mudarCor() {
+            document.body.style.backgroundColor = "green"
+            //var elm = document.getElementById("primeiro")
+            var elm = document.querySelector("h1")//pega o primeiro que se enquadra e selectorAll pega todos
+            //console.log(elm)
+            var divzera = document.createElement("div")
+            divzera.innerHtml = "Funciona"
+            div.className = "Alert"
+            document.body.append = divzera
+            document.body.remove()
+        }
+        setTimeout(mudarCor, 1000)
+
+        var elm = document.getElementById("segundo")
+        elm.innerText = "Fala Galera"
+        elm.innerText = "Modificando a DOM"
+        document.querySelectorAll("li.rock")
+
+        divzera = document.createElement("div")
+        div.className = "Alert"
+        divzera.innerHtml = "Funciona"
+        document.body.append = divzera
+
+    </script>
+</head>
+
+<body style="background-color: aqua;">
+    <h1 id="primeiro">Aula pra entender o DOM</h1>
+    <p id="segundo">Vlw Fls</p>
+    <ul>
+        <li class="item experimental">Gorillaz</li>
+        <li class="item rock">Led Zepllin</li>
+        <li class="item mpb">Caetano</li>
+        <li class="item rock">Green Day</li>
+        <li class="item soul">Stevie Wonder</li>
+    </ul>
+
+    <p class="textinho rock">O rock foi criado na decada de 50 por......................</p>
+
+    
+
+
+</body>
+
+</html>
