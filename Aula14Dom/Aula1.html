@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!--<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -54,6 +54,50 @@
     
 
 
+</body>
+
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="atividade1">Atividade 1</h1>
+    <button onclick="FazMagica()" id="botaoMagico" value="botao">Faz Magica</button><br>
+    <hr>
+    <h1>Atividade 2</h1>
+    <input id="QuebraDeFrase" type="text">
+    <input onclick="divideFrase()" type="submit" id="enviarFrase">
+    <hr>
+    <script>
+        function FazMagica() {
+            var frase1 = prompt("Escreva uma frase")
+            var h1 = document.getElementById("atividade1")
+            h1.innerHTML = frase1
+            console.log("clicou")
+        }
+
+        function divideFrase() {
+            frase = document.getElementById("QuebraDeFrase").value
+            impimeLista(frase)
+        }
+
+        function impimeLista(texto) {
+            var lista = document.createElement("ul")
+            var palavras = frase.split(" ")
+            for (var i = 0; i < palavras.length; i++) {
+                palavra = palavras[i]
+                var item = document.createElement("li")
+                item.innerText = palavra
+                lista.append(item)
+            }document.body.append(lista)
+        }
+    </script>
 </body>
 
 </html>

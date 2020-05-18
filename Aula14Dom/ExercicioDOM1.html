@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Captura de frase</title>
+    <script>
+       function divideFrase() {
+            frase = document.getElementById("QuebraDeFrase").value
+            impimeLista(frase)
+        }
+
+        function impimeLista(texto) {
+            var lista = document.createElement("ul")
+            var palavras = frase.split(" ")
+            for (var i = 0; i < palavras.length; i++) {
+                palavra = palavras[i]
+                var item = document.createElement("li")
+                item.innerText = palavra
+                lista.append(item)
+            }document.body.append(lista)
+        }
+       </script>
+</head>
+
+<body>
+    <input id="QuebraDeFrase" type="text">
+    <input type="submit" onclick="divideFrase()" value="FraseSalva">
+
+
+    <ul id="saidaDaFrase">
+
+    </ul>
+
+
+</body>
+
+</html>
