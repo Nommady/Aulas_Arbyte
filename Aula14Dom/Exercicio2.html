@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Digite sua idade:</p>
+    <input type="text" name="idade" size="70" id="idade">
+    <a id="Links"> <input type="button" onclick="Encaminhar()" value="Enviar" id="Enviar">
+    </a>
+    <script>
+        var link = " "
+        var mundoBita = href = "https://www.mundobita.com.br/"
+        var Pudim = href = "http://pudim.com.br/"
+        function Encaminhar() {
+            var idade = document.getElementById("idade").value
+            if (idade < 18) {
+                window.location.href = mundoBita
+            }
+            else if (idade >= 18) {
+                window.location.href = Pudim
+            }
+        }
+    </script>
+</body>
+
+</html>
