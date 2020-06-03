@@ -1,5 +1,4 @@
 var rs = require("readline-sync")
-
 var numero = 0
 var ArrayDeNumeros = []
 var soma = 0

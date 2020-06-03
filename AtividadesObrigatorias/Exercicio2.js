@@ -4,14 +4,13 @@ var num2 = 50
 
 function calcPrimo(num){
     var divisor = 2
-    var EhPrimo = true
     while (divisor < num){
         if(num % divisor == 0 ){
-         EhPrimo =  false
+         return  false
         }
         divisor++
     }
-    return EhPrimo
+    return true
 }
 
 // while (num1 < num2){
